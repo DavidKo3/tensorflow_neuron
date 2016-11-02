@@ -21,6 +21,8 @@ sess.run(tf.initialize_all_variables())
 
 for i in range(150):
     if i % 10 ==0:
-        print("epch {}, output : {} ".format(i, sess.run(y)))
+        print("epoch {}, output : {} ".format(i, sess.run(y)))
     summary_writer.add_summary(sess.run(summaries), i)
     sess.run(train_step)
+    
+
