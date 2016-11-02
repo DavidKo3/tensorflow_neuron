@@ -12,3 +12,4 @@ train_step  = tf.train.GradientDescentOptimizer(0.025).minimize(loss)
 
 for value in [x, w, y, y_,loss]:
     tf.scalar_summary(value.op.name, value)
+    
