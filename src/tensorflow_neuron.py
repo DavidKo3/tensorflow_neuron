@@ -25,5 +25,5 @@ for i in range(150):
     summary_writer.add_summary(sess.run(summaries), i)
     sess.run(train_step)
 
-print "Df"
+print "Dfgh"
 
