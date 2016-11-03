@@ -26,3 +26,4 @@ for i in range(150):
     sess.run(train_step)
     
 
+
