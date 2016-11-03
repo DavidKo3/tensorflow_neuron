@@ -24,5 +24,6 @@ for i in range(150):
         print("epoch {}, output : {} ".format(i, sess.run(y)))
     summary_writer.add_summary(sess.run(summaries), i)
     sess.run(train_step)
-    
+
+pritn "Df"
 
